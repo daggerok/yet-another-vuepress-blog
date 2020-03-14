@@ -1,0 +1,12 @@
+.idea
+!.idea/
+.idea/*
+!.idea/runConfigurations/
+*.iml
+*.ipr
+*.iws
+*.log*
+!*.gitkeep
+node_modules/
+.vuepress/dist/
+package-lock.json

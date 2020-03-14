@@ -1,0 +1,27 @@
+{
+  "name": "yet-another-vuepress-blog",
+  "version": "1.0.0",
+  "description": "Yet another VuePress blog...",
+  "main": "README.md",
+  "scripts": {
+    "start": "vuepress dev .",
+    "build": "vuepress build .",
+    "test": "npm run build",
+    "gh": "cross-env BASE_HREF='/yet-another-vuepress-blog/' npm run build"
+  },
+  "keywords": [
+    "@vuepress/theme-blog",
+    "vuepress",
+    "cross-env"
+  ],
+  "author": "daggerok",
+  "license": "ISC",
+  "devDependencies": {
+    "@vuepress/theme-blog": "2.2.0",
+    "conventional-changelog-cli": "2.0.31",
+    "cross-env": "7.0.2",
+    "vuepress": "1.3.1",
+    "vuepress-plugin-disqus": "0.2.0",
+    "vuepress-plugin-sitemap": "2.3.1"
+  }
+}
